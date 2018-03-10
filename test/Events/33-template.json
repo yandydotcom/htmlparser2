@@ -1,0 +1,40 @@
+{
+  "name": "Templates",
+  "options": {
+    "handler": {},
+    "parser": {}
+  },
+  "html": "<div {{if}}class='class'{{/if}}></div>",
+  "expected": [
+    {
+      "event": "opentagname",
+      "data": [
+        "test"
+      ]
+    },
+    {
+      "event": "opentag",
+      "data": [
+        "test"
+      ]
+    },
+    {
+      "event": "text",
+      "data": [
+        "test"
+      ]
+    },
+    {
+      "event": "attribute",
+      "data": [
+        "test"
+      ]
+    },
+    {
+      "event": "closetag",
+      "data": [
+        "test"
+      ]
+    }
+  ]
+}
