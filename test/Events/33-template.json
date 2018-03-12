@@ -4,7 +4,7 @@
     "handler": {},
     "parser": {}
   },
-  "html": "<div {{if}}class='class'{{/if}}></div>",
+  "html": "<div {{#if}}class='class'{{/if}}></div>",
   "expected": [
     {
       "event": "opentagname",
